@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cormorant Unicase', serif;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/32/753/307/abstract-monochrome-minimalism-gray-wallpaper-preview.jpg);
+    background-size:cover;
+    background-repeat:repeat;
+    background-attachment: fixed;
+    color: white;
+}
+nav{
+    background: transparent;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    padding: 1.2rem;
+    display: flex; flex-direction: row;
+}
+li{
+    display: inline-block;
+    position: relative;
+    font-size: 1.4rem;
+    margin: 10px 20px;
+}
+a{
+    text-decoration: none;
+    color:rgb(255, 251, 0)
+}
+.logo{
+    width: 150px;
+    height: 85px;
+}
+h2{
+    display: flex;
+}
+h3{
+    display: flex;
+}
+.boton{
+    display: flex;
+}
+input{
+    background-color:orange;
+    border-color: rgb(255, 255, 209);
+    color: rgb(255, 255, 255);
+}
+.country{
+    background-color: rgb(34, 34, 34, 0.5);
+    border-color: beige;
+    color: bisque;
+}
+fieldset{
+    border: none;
+}
+label:hover{
+    border-width: 3px;
+    border-color: beige;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.acompañante{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top: 4.5rem;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+footer{
+    margin-block-start: 5rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.formulario{
+    text-align: center;
+    line-height: 1.3rem;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.rrss{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-inline-start: 10px;
+}
+.discography{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 250px;
+    height: 250px;
+}
+h1{
+    text-align: center;
+}
+.tour{
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery_container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 150px ;
+    padding: 20px;
+    grid-gap: 10px;
+}
+.gallery_item{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
