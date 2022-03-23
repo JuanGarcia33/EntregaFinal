@@ -7,13 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&display=swap" rel="stylesheet">
-	<link rel="shorcut icon" href="../favicon_io/favicon-16x16.png"/>
+	<link rel="shorcut icon" href="../media/favicon_io/favicon-32x32.png"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="../style.css">
     <title>Discography</title>
 </head>
 <body>
     <header>
-        <nav>
+		<nav>
 			<img class="logo" src="../media/logo.png" height="150px" />
 			<ul>
 				<li> <a href="../index.html">Home</a> </li>
@@ -22,67 +23,117 @@
 				<li> <a href="../html/merch.html">Merch</a> </li>
 				<li> <a href="../html/contact.html">Contact</a> </li>
 			</ul>
-        <h1>
-            Discography
-        </h1>
+		</nav>
     </header>
-    <main class="discography">
-        <img src="/media/opus.jpg" alt="First album">
-        <img src="/media/infess.jpg" alt="Second album">
-        <img src="/media/meliora.jpg" alt="Thrid album">
-        <img src="/media/prequelle.jpg" alt="Fourth album">
-        <img src="/media/imperia.jpg" alt="Fifth album">
-    </main>
-    <footer>
-<!--Redes sociales-->
-    <Section>
-    <div class="rrss">
-        <img class="rrss" src="../media/87390.png">
-        <img class="rrss" src="../media/81609.png">
-    <img class="rrss" src="../media/youtube-symbol.png">
+<main>
+    <h1>Discography</h1>
+    <div class="container-fluid">
+        <div class="px-lg-5">
+            <div class="row">
+            <!-- Gallery item -->
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm opus"><img src="../media/Albums/opus.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="#" class="text-dark"><strong>Opus Eponymous</strong></a></h5>
+                  <p>Is the debut studio album of the band. Released on 18 October 2010, with 10 songs, one from the Japanese edition.</p>
+                  <p class="small mb-0 text-dark">"Everything on the first record was about a coming darkness, an impending doom."</p>
+                </div>
+              </div>
             </div>
-        </Section> <br>
-<!--Formulario de contacto-->
-        <section class="formulario">
-            <h4>Get Email Updates</h4>
-        <fieldset>
-            <legend>Contact</legend>
-        <form action="">
-<!--Informacion de la persona-->
-        <div>
-            <label for="nombre">First & Last Name</label>            
-            <input type="text" name="nombre">
-        </div> <br>
-        <div>
-            <label for="email">Email adress </label>
-            <input type="email" name="email" required> 
-        </div> <br>
-<!--Eleccion de nacion, sin embargo faltan-->
-        <div>
-        <label for="Country">Choose your nationality</label>
-            <select name="Country" class="country">
-                <option value="United States of America">United States of America</option>
-                <option value="Argentina">Argentina</option>
-                <option value="Australia">Australia</option>
-                <option value="Bolivia">Bolivia</option>
-                <option value="Brazil">Brazil</option>
-                <option value="Canada">Canada</option>
-                <option value="Colombia">Colombia</option>
-                <option value="Chile">Chile</option>
-                <option value="China">China</option>
-                <option value="Colombia">Colombia</option>
-            </select>
-                </div> <br>
-<!--Botones de eleccion-->
-            <section class="botones">
-                <div>
-                    <input type="submit" value="Send"> <br>
-                </div> <br>
-                <div>
-                    <input type="reset" value="Clear">
-                </div> <br>
-            </section>
-        </section>
-    </footer>
+            <!-- End -->
+      
+            <!-- Gallery item -->
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm infess"><img src="../media/Albums/infess.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="#" class="text-dark"><strong>Infestissumam</strong></a></h5>
+                  <p>Is the second studio album, released on April 10, 2013. The album is composed of 10 songs, increasing to 16 in its "Redux" version. </p>
+                  <p class="small mb-0 text-dark">"The new album is about something present, and literally the new album deals with the presence of the Antichrist, the Demon."</p>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+      
+            <!-- Gallery item -->
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm meliora"><img src="../media/Albums/meliora.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="#" class="text-dark"><strong>Meliora</strong></a></h5>
+                  <p>Is the third studio album, released on August 21, 2015. Like the previous album, the standard version has 10 songs while the "redux" has 16.</p>
+                  <p class="small text-dark mb-0">Lead single "Cirice" won the 2016 Grammy Award for Best Metal Performance</p>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+      
+            <!-- Gallery item -->
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm prequelle"><img src="../media/Albums/prequelle.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="#" class="text-dark"><strong>Prequelle</strong></a></h5>
+                  <p>Is the fourth studio album of the band, released on April 13, 2018. Its normal version consists of 10 songs as opposed to its "Exalted" version which has 12 tracks. </p>
+                  <p class="small text-dark mb-0">"Prequelle" was nominated for the Best Rock Album Grammy Award at the 61st annual awards ceremony.</p>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+
+            <!-- Gallery item -->
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm impera"><img src="../media/Albums/imperia.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="#" class="text-dark"><strong>Impera</strong></a></h5>
+                  <p>Impera is the band's fifth and most recent album, to be released on March 11, 2022, featuring 12 new songs.</p>
+                  <p class="small mb-0 text-dark">The album's theme mainly focuses on "the rise and fall of empires", with sound and melodies reminiscent of 80's rock.</p>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+            <!-- Gallery item -->
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm impera"><img src="../media/Albums/Ghost.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="#" class="text-dark"><strong>If you have a ghost</strong></a></h5>
+                  <p>Is the band's first EP, releasedon November 20, 2013. Of the 5 songs 4 are covers and the remaining one is a live recording.</p>
+                  <p class="small mb-0 text-dark">This EP was produce by Dave Grohl, best know as the drummer of nirvana and frontman of Foo fighters</p>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+            <!-- Gallery item -->
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm impera"><img src="../media/Albums/Popestar.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="#" class="text-dark"><strong>Popestar</strong></a></h5>
+                  <p>Popestar is the second EP by the Swedish rock band, released on September 16, 2016.</p>
+                  <p class="small mb-0 text-dark">Exactly as the previous EP, popestar consist almost entirely of covers, being "Square Hammer" the only original track.</p>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+            <!-- Gallery item -->
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm impera"><img src="../media/Albums/Ceremony.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="#" class="text-dark"><strong>Ceremony and Devotion</strong></a></h5>
+                  <p>Compilation album of the most famous songs from his 3 previous productions, being released on October 23, 2017.</p>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+            <!-- Gallery item -->
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm impera"><img src="../media/Albums/Inches.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="#" class="text-dark"><strong>Seven Inches of Satan Panic</strong></a></h5>
+                  <p>Is the third EP of the band. It features the songs "Kiss the Go-Goat" and "Mary on a Cross"</p>
+                  <p class="small mb-0 text-dark">Being tracks of the character known as Papa nihil as a celebration of its 50th anniversary </p>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>

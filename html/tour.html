@@ -7,13 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&display=swap" rel="stylesheet">
-	<link rel="shorcut icon" href="../favicon_io/favicon-16x16.png"/>
-	<link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="shorcut icon" href="../media/favicon_io/favicon-32x32.png"/>
+    <link rel="stylesheet" href="../style.css">
     <title>Tour</title>
 </head>
 <body>
     <header>
-		<nav>
+        <nav>
 			<img class="logo" src="../media/logo.png" height="150px" />
 			<ul>
 				<li> <a href="../index.html">Home</a> </li>
@@ -22,62 +23,69 @@
 				<li> <a href="../html/merch.html">Merch</a> </li>
 				<li> <a href="../html/contact.html">Contact</a> </li>
 			</ul>
-		</nav>
-        <h1>Tour</h1>
     </header>
-    <main class="tour">
-        <img src="../media/ghost-tour poster.jpg">
-    </main>
-    <footer>
-<!--Redes sociales-->
-    <Section>
-    <div class="rrss">
-        <img class="rrss" src="../media/87390.png">
-        <img class="rrss" src="../media/81609.png">
-        <img class="rrss" src="../media/youtube-symbol.png">
-    </div>
-        </Section> <br>
-<!--Formulario de contacto-->
-        <section class="formulario">
-            <h4>Get Email Updates</h4>
-        <fieldset>
-            <legend>Contact</legend>
-        <form action="">
-<!--Informacion de la persona-->
-        <div>
-            <label for="nombre">First & Last Name</label>            
-            <input type="text" name="nombre">
-        </div> <br>
-        <div>
-            <label for="email">Email adress </label>
-            <input type="email" name="email" required> 
-        </div> <br>
-<!--Eleccion de nacion, sin embargo faltan-->
-        <div>
-        <label for="Country">Choose your nationality</label>
-            <select name="Country" class="country">
-                <option value="United States of America">United States of America</option>
-                <option value="Argentina">Argentina</option>
-                <option value="Australia">Australia</option>
-                <option value="Bolivia">Bolivia</option>
-                <option value="Brazil">Brazil</option>
-                <option value="Canada">Canada</option>
-                <option value="Colombia">Colombia</option>
-                <option value="Chile">Chile</option>
-                <option value="China">China</option>
-                <option value="Colombia">Colombia</option>
-            </select>
-                </div> <br>
-<!--Botones de eleccion-->
-            <section class="botones">
-                <div>
-                    <input type="submit" value="Send"> <br>
-                </div> <br>
-                <div>
-                    <input type="reset" value="Clear">
-                </div> <br>
-            </section>
-        </section>
-    </footer>
+    <main class="container">
+          <div class="row">
+               <div class="col s12 center-align">
+                    <h1 class="titulo">Tour</h1>
+               </div>
+          </div>
+
+          <div class="row galeria">
+               <div class="col s12 m4 l3">
+                    <div class="material-placeholder">
+                         <img src="../media/tour/1.jpg" alt="" class="responsive-img materialboxed" data-caption="Los Angeles, California. Honda Center in Anaheim">
+                    </div>
+               </div>
+               
+               <div class="col s12 m4 l3">
+                    <div class="material-placeholder">
+                         <img src="../media/tour/2.jpg" alt="" class="responsive-img materialboxed" data-caption="Los Angeles, California. Honda Center in Anaheim">
+                    </div>
+               </div>
+               
+               <div class="col s12 m4 l3">
+                    <div class="material-placeholder"><img src="../media/tour/3.jpg" alt="" class="responsive-img materialboxed" data-caption="Los Angeles, California. Honda Center in Anaheim"></div>
+               </div>
+               
+               <div class="col s12 m4 l3">
+                    <div class="material-placeholder"><img src="../media/tour/4.jpg" alt="" class="responsive-img materialboxed" data-caption="Los Angeles, California. Honda Center in Anaheim"></div>
+               </div>
+               
+               <div class="col s12 m4 l3">
+                    <div class="material-placeholder"><img src="../media/tour/5.jpg" alt="" class="responsive-img materialboxed" data-caption="Los Angeles, California. Honda Center in Anaheim"></div>
+               </div>
+               
+               <div class="col s12 m4 l3">
+                    <div class="material-placeholder"><img src="../media/tour/6.jpg" alt="" class="responsive-img materialboxed" data-caption="El paso, Texas. Don Haskins Center"></div>
+               </div>
+               
+               <div class="col s12 m4 l3">
+                    <div class="material-placeholder"><img src="../media/tour/7.jpg" alt="" class="responsive-img materialboxed" data-caption="El paso, Texas. Don Haskins Center"></div>
+               </div>
+               
+               <div class="col s12 m4 l3">
+                    <div class="material-placeholder"><img src="../media/tour/8.jpg" alt="" class="responsive-img materialboxed" data-caption="El paso, Texas. Don Haskins Center"></div>
+               </div>
+               
+               <div class="col s12 m4 l3">
+                    <div class="material-placeholder"><img src="../media/tour/9.jpg" alt="" class="responsive-img materialboxed" data-caption="Milwaukee, Wisconsin. Fisverv Forum"></div>
+               </div>
+               
+               <div class="col s12 m4 l3">
+                    <div class="material-placeholder"><img src="../media/tour/10.jpg" alt="" class="responsive-img materialboxed" data-caption="Milwaukee, Wisconsin. Fisverv Forum"></div>
+               </div>
+               
+               <div class="col s12 m4 l3">
+                    <div class="material-placeholder"><img src="../media/tour/11.jpg" alt="" class="responsive-img materialboxed" data-caption="Milwaukee, Wisconsin. Fisverv Forum"></div>
+               </div>
+               
+               <div class="col s12 m4 l3">
+                    <div class="material-placeholder"><img src="../media/tour/12.jpg" alt="" class="responsive-img materialboxed" data-caption="Milwaukee, Wisconsin. Fisverv Forum"></div>
+               </div>
+          </div>
+     </main>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script src="../js/main.js"></script>
 </body>
 </html>

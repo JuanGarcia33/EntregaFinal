@@ -5,11 +5,14 @@
 }
 body{
     font-family: 'Cormorant Unicase', serif;
-    background-image: url(https://p4.wallpaperbetter.com/wallpaper/32/753/307/abstract-monochrome-minimalism-gray-wallpaper-preview.jpg);
+    background-color: rgb(36, 34, 34);
     background-size:cover;
     background-repeat:repeat;
     background-attachment: fixed;
     color: white;
+}
+p{
+    color:black;
 }
 nav{
     background: transparent;
@@ -30,7 +33,10 @@ li{
 }
 a{
     text-decoration: none;
-    color:rgb(255, 251, 0)
+    color:rgb(168, 166, 1)
+}
+a:hover{
+    color:rgb(255, 0, 0);
 }
 .logo{
     width: 150px;
@@ -46,7 +52,7 @@ h3{
     display: flex;
 }
 input{
-    background-color:orange;
+    background-color:#ba945e;
     border-color: rgb(255, 255, 209);
     color: rgb(255, 255, 255);
 }
@@ -62,7 +68,7 @@ label:hover{
     border-width: 3px;
     border-color: beige;
 }
-main{
+.video{
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
@@ -81,10 +87,6 @@ footer{
     flex-direction: column-reverse;
     align-items: center;
 }
-.formulario{
-    text-align: center;
-    line-height: 1.3rem;
-}
 .botones{
     display: flex;
     flex-direction: row;
@@ -98,32 +100,72 @@ footer{
     justify-content:space-around;
     margin-inline-start: 10px;
 }
-.discography{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    margin-left: 3%;
-    margin-right: 3%;
-    width: 250px;
-    height: 250px;
-}
 h1{
     text-align: center;
+    margin-top: 5vh;
 }
 .tour{
     height: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
-.gallery_container{
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 150px ;
-    padding: 20px;
-    grid-gap: 10px;
+.titulo {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
 }
-.gallery_item{
-    width: 100%;
-    height: 100%;
-    object-fit:cover;
+
+.galeria img {
+    box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
+    border-radius: 15px;
+}
+
+.materialbox-caption {
+    bottom: 30px;
+    right: 0;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background: #000;
+    box-shadow: 5px 5px #fff;
+    font-size: 20px;
+    color: #fff;
+    line-height: 28px;
+}
+
+.galeria .col {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .materialbox-caption {
+    width: 90%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .materialbox-caption {
+    width: 70%;
+    }
+}
+.opus:hover{
+    transform: scale(1.05,1.05);
+    transition: 0.5s;
+}
+.infess:hover{
+    transform: scale(1.05,1.05);
+    transition: 0.5s;
+}
+.meliora:hover{
+    transform: scale(1.05,1.05);
+    transition: 0.5s;
+}
+.prequelle:hover{
+    transform: scale(1.07,1.07);
+    transition: 0.5s;
+}
+.impera:hover{
+    transform: scale(1.07,1.07);
+    transition: 0.5s;
 }
