@@ -1,0 +1,231 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cormorant Unicase', serif;
+  background-color: #242222;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+header nav {
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header nav li {
+  display: inline-block;
+  position: relative;
+  font-size: 1.4rem;
+  margin: 10px 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #a8a601;
+}
+
+header nav a:hover {
+  color: red;
+}
+
+header h1 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+main p {
+  color: #000;
+}
+
+main h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main input {
+  background-color: #ba945e;
+  border-color: #ffffd1;
+  color: white;
+}
+
+main fieldset {
+  border: none;
+}
+
+main label:hover {
+  border-width: 3px;
+  border-color: beige;
+}
+
+main .video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+}
+
+main .acompañante {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3rem;
+  text-transform: uppercase;
+  line-height: 45px;
+}
+
+main .tour {
+  height: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .titulo {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+
+main .galeria img {
+  -webkit-box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+}
+
+main .materialbox-caption {
+  bottom: 30px;
+  right: 0;
+  width: 40%;
+  height: auto;
+  padding: 10px;
+  margin: auto;
+  background: #000;
+  -webkit-box-shadow: 5px 5px #fff;
+          box-shadow: 5px 5px #fff;
+  font-size: 20px;
+  color: #fff;
+  line-height: 28px;
+}
+
+main .galeria .col {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  main .materialbox-caption {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  main .materialbox-caption {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main .materialbox-caption {
+    width: 70%;
+  }
+}
+
+main .album:hover {
+  -webkit-transform: scale(1.03, 1.03);
+          transform: scale(1.03, 1.03);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer {
+  -webkit-margin-before: 5rem;
+          margin-block-start: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .botones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .rrss {
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-margin-start: 10px;
+          margin-inline-start: 10px;
+}
+
+footer h1 {
+  text-align: center;
+  margin-top: 5vh;
+}
+/*# sourceMappingURL=estilo.css.map */
