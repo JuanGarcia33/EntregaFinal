@@ -170,7 +170,7 @@ main .imagen img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+    object-fit: cover;
 }
 
 main .overlay {
@@ -250,7 +250,6 @@ main .box {
   }
 }
 
-/* New Arrivals */
 .h {
   font-size: 3rem;
   text-align: center;
@@ -292,7 +291,7 @@ main .ac:hover img {
 }
 
 @media only screen and (max-width: 567px) {
-  mainmain .h {
+  main main .h {
     font-size: 32px;
   }
 }
@@ -418,17 +417,15 @@ footer .rrss {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
+  -webkit-box-direction:normal;
       -ms-flex-direction: row;
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-margin-start: 10px;
-          margin-inline-start: 10px;
+  margin-inline:18px;
 }
 
 footer h1 {
   text-align: center;
   margin-top: 5vh;
 }
-/*# sourceMappingURL=estilo.css.map */
